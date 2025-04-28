@@ -19,7 +19,7 @@ export default function About() {
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-amber-100 rounded-lg z-0" />
               <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="placeholder.svg?height=600&width=800"
                   alt="Elima Corner Location"
                   width={800}
                   height={600}

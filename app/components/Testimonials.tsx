@@ -87,7 +87,7 @@ export default function Testimonials() {
                   <div className="flex items-center gap-3">
                     <Avatar>
                       <AvatarImage
-                        src={`/placeholder.svg?text=${testimonial.avatar}`}
+                        src={`placeholder.svg?text=${testimonial.avatar}`}
                       />
                       <AvatarFallback>{testimonial.avatar}</AvatarFallback>
                     </Avatar>

@@ -19,7 +19,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Elima Corner | Vehicle Rental & Canteen in Singaraja, Bali",
+  title: "Elima Corner | Vehicle Rental & Canteen",
   description:
     "Elima Corner offers premium vehicle rentals and delicious local food in Singaraja, Bali. Experience the beauty of Bali with our services.",
 };

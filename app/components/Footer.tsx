@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <span className="text-2xl font-bold">Elima</span>
               <Image
-                src="/elimacorner-logo.svg"
+                src="elimacorner-logo.svg"
                 alt="Elima Corner Logo"
                 width={30}
                 height={30}

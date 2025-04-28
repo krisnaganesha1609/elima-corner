@@ -69,11 +69,11 @@ export function LandingNav() {
           </Link>
 
           <Link href="/" className="flex items-center gap-1">
-            <span className="text-2xl font-bold bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent">
+            <span className="text-2xl font-bold bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent mr-1">
               Elima
             </span>
             <Image
-              src="/elimacorner-logo.svg"
+              src="elimacorner-logo.svg"
               alt="Elima Corner Logo"
               width={30}
               height={30}
@@ -99,11 +99,11 @@ export function LandingNav() {
         {/* Mobile Navigation */}
         <div className="md:hidden flex items-center justify-between w-full">
           <Link href="/" className="flex items-center gap-1">
-            <span className="text-xl font-bold bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent">
+            <span className="text-xl font-bold bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent mr-1">
               Elima
             </span>
             <Image
-              src="/elimacorner-logo.svg"
+              src="elimacorner-logo.svg"
               alt="Elima Corner Logo"
               width={24}
               height={24}
@@ -122,11 +122,11 @@ export function LandingNav() {
             <SheetContent>
               <SheetHeader>
                 <SheetTitle className="flex items-center justify-center gap-1">
-                  <span className="text-xl font-bold bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent">
+                  <span className="text-xl font-bold bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent mr-1">
                     Elima
                   </span>
                   <Image
-                    src="/elimacorner-logo.svg"
+                    src="elimacorner-logo.svg"
                     alt="Elima Corner Logo"
                     width={24}
                     height={24}

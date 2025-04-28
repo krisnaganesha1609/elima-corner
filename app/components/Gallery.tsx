@@ -9,25 +9,46 @@ import { Button } from "@/components/ui/button";
 
 const galleryItems = {
   vehicles: [
-    { src: "/placeholder.svg?height=400&width=600", alt: "Car Rental" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Scooter Rental" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Bike Rental" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Premium Car" },
+    { src: "placeholder.svg?height=400&width=600", alt: "Car Rental" },
+    {
+      src: "placeholder.svg?height=400&width=600",
+      alt: "Scooter Rental",
+    },
+    { src: "placeholder.svg?height=400&width=600", alt: "Bike Rental" },
+    { src: "placeholder.svg?height=400&width=600", alt: "Premium Car" },
   ],
   food: [
-    { src: "/placeholder.svg?height=400&width=600", alt: "Balinese Food" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Local Cuisine" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Fresh Drinks" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Desserts" },
+    {
+      src: "placeholder.svg?height=400&width=600",
+      alt: "Balinese Food",
+    },
+    {
+      src: "placeholder.svg?height=400&width=600",
+      alt: "Local Cuisine",
+    },
+    {
+      src: "placeholder.svg?height=400&width=600",
+      alt: "Fresh Drinks",
+    },
+    { src: "placeholder.svg?height=400&width=600", alt: "Desserts" },
   ],
   location: [
     {
-      src: "/placeholder.svg?height=400&width=600",
+      src: "placeholder.svg?height=400&width=600",
       alt: "Elima Corner Exterior",
     },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Canteen Area" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Rental Office" },
-    { src: "/placeholder.svg?height=400&width=600", alt: "Singaraja Beach" },
+    {
+      src: "placeholder.svg?height=400&width=600",
+      alt: "Canteen Area",
+    },
+    {
+      src: "placeholder.svg?height=400&width=600",
+      alt: "Rental Office",
+    },
+    {
+      src: "placeholder.svg?height=400&width=600",
+      alt: "Singaraja Beach",
+    },
   ],
 };
 
@@ -106,7 +127,7 @@ export default function Gallery() {
                   src={
                     galleryItems[activeTab as keyof typeof galleryItems][
                       currentIndex
-                    ].src || "/placeholder.svg"
+                    ].src || "placeholder.svg"
                   }
                   alt={
                     galleryItems[activeTab as keyof typeof galleryItems][
@@ -180,7 +201,7 @@ export default function Gallery() {
                   >
                     <div className="relative h-32 w-full">
                       <Image
-                        src={item.src || "/placeholder.svg"}
+                        src={item.src || "placeholder.svg"}
                         alt={item.alt}
                         fill
                         className={`object-cover transition-transform duration-500 hover:scale-110 ${

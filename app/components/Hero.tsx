@@ -11,7 +11,7 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/placeholder.svg?height=1080&width=1920"
+          src="placeholder.svg?height=1080&width=1920"
           alt="Bali landscape"
           fill
           className="object-cover"
@@ -62,7 +62,7 @@ export default function Hero() {
           >
             <div className="relative h-[400px] w-full rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/placeholder.svg?height=800&width=600"
+                src="placeholder.svg?height=800&width=600"
                 alt="Elima Corner Services"
                 fill
                 className="object-cover"

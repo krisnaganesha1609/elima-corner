@@ -27,7 +27,7 @@ const vehicles = {
         "Comfortable 7-seater MPV, perfect for family trips around Bali.",
       price: 500000,
       priceUnit: "day",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "placeholder.svg?height=300&width=500",
       features: ["7 Seats", "Air Conditioning", "Automatic", "Fuel Efficient"],
       rating: 4.8,
       category: "Economy",
@@ -39,7 +39,7 @@ const vehicles = {
         "Compact and fuel-efficient car, ideal for couples or solo travelers.",
       price: 350000,
       priceUnit: "day",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "placeholder.svg?height=300&width=500",
       features: ["5 Seats", "Air Conditioning", "Automatic", "Compact"],
       rating: 4.7,
       category: "Economy",
@@ -51,7 +51,7 @@ const vehicles = {
         "Spacious SUV with excellent performance for exploring Bali's varied terrain.",
       price: 1200000,
       priceUnit: "day",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "placeholder.svg?height=300&width=500",
       features: ["7 Seats", "Air Conditioning", "Automatic", "4x4 Available"],
       rating: 4.9,
       category: "Premium",
@@ -65,7 +65,7 @@ const vehicles = {
         "Popular scooter with good power and comfort for daily rides.",
       price: 100000,
       priceUnit: "day",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "placeholder.svg?height=300&width=500",
       features: ["125cc", "Automatic", "Fuel Efficient", "Storage Space"],
       rating: 4.8,
       category: "Scooter",
@@ -77,7 +77,7 @@ const vehicles = {
         "Premium scooter with excellent stability and comfort for longer rides.",
       price: 150000,
       priceUnit: "day",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "placeholder.svg?height=300&width=500",
       features: ["155cc", "Automatic", "ABS", "Digital Dashboard"],
       rating: 4.9,
       category: "Scooter",
@@ -89,7 +89,7 @@ const vehicles = {
         "Off-road motorcycle perfect for exploring Bali's hidden trails.",
       price: 200000,
       priceUnit: "day",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "placeholder.svg?height=300&width=500",
       features: ["150cc", "Manual", "Off-road", "Lightweight"],
       rating: 4.7,
       category: "Motorcycle",
@@ -102,7 +102,7 @@ const vehicles = {
       description: "Complete set with umbrella, mat, and beach chairs.",
       price: 50000,
       priceUnit: "day",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "placeholder.svg?height=300&width=500",
       features: ["Large Umbrella", "2 Chairs", "Beach Mat", "Carry Bag"],
       rating: 4.6,
       category: "Beach",
@@ -114,7 +114,7 @@ const vehicles = {
         "Quality snorkeling equipment to explore Bali's underwater beauty.",
       price: 75000,
       priceUnit: "day",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "placeholder.svg?height=300&width=500",
       features: ["Mask", "Snorkel", "Fins", "Carry Bag"],
       rating: 4.7,
       category: "Water Sports",
@@ -197,7 +197,7 @@ export default function RentalsPage() {
                       <Card className="h-full overflow-hidden">
                         <div className="relative h-48 w-full">
                           <Image
-                            src={vehicle.image || "/placeholder.svg"}
+                            src={vehicle.image || "placeholder.svg"}
                             alt={vehicle.name}
                             fill
                             className="object-cover"
